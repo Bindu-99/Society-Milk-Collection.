@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up • Society Milk Collection</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container" style="max-width:560px">
+    <section class="card">
+      <h2>Create account</h2>
+      <form id="signupForm">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div id="messages" class="messages"></div>
+        <div class="actions">
+          <button type="submit" class="btn-primary">Create account</button>
+          <a class="btn-secondary" href="/login" style="text-decoration:none;display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #2a2f36">Back to login</a>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="/auth.js"></script>
+</body>
+</html>

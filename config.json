@@ -1,0 +1,10 @@
+{
+  "limits": {
+    "Cow": { "fat": { "min": 3.0, "max": 6.0 }, "snf": { "min": 7.5, "max": 10.0 } },
+    "Buffalo": { "fat": { "min": 5.0, "max": 9.0 }, "snf": { "min": 8.0, "max": 11.0 } }
+  },
+  "pricing": {
+    "Cow": { "base": 20, "fat_factor": 5.0, "snf_factor": 2.0 },
+    "Buffalo": { "base": 25, "fat_factor": 6.0, "snf_factor": 2.5 }
+  }
+}
